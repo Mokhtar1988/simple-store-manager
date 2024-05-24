@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 999;
+    background-color: rgb(160, 167, 174);
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo {
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: 700;
+    color: rgb(0, 0, 2);
+}
+.navigation a {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-left: 30px;
+    color: rgb(0, 0, 2);
+}
+.navigation a:hover {
+    color: rgb(8, 125, 2);
+}
+section {
+    padding: 100px 200px;
+
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    background-image: url(../images/11.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.main h2{
+    font-size: 1em;
+    font-weight: 600;
+}
+.main h2 span {
+    font-size: 3em;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 5px;
+    color: rgb(249, 3, 3);
+
+}
+.main h3 {
+    font-size: 2em;
+    font-weight: 700;
+
+}
+.btn {
+    color: aliceblue;
+    background-color: rgb(249, 3, 3);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 7px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(8, 125, 2);
+    transform: scale(1.1);
+
+}
+.ttl {
+    color: rgb(14, 9, 0);
+    text-align: center;
+    size: 5em;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.cards {
+    width: 100%;
+    max-height: 100vh;
+
+    margin-bottom: 50px;
+}
+.content {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+.card {
+    width: 300px;
+    height: 350px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 5px 25px rgb(116, 114, 114);
+    transition: 0.7s ease;
+
+}
+.card:hover {
+    transform: scale(1.1);
+}
+ .cardlogo {
+    color: rgb(249, 3, 3);
+    text-align: center;
+    font-size: 3.5em;
+
+ }
+ .card h4{
+    text-align: center;
+ }
+ .card p{
+    text-align: center;
+ }
+ ::selection {
+    background-color: red;
+    color: aliceblue;
+ }
